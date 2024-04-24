@@ -1,5 +1,5 @@
 #!/bin/bash
 
-while IFS=read -r line; do
+while IFS= read -r line; do
     echo "Text read from file:$line"
 done < sample.txt
